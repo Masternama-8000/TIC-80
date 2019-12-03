@@ -28,13 +28,13 @@
 
 #define TIC_VERSION_MAJOR 0
 #define TIC_VERSION_MINOR 80
-#define TIC_VERSION_PATCH 0
-#define TIC_VERSION_STATUS "-dev"
+#define TIC_VERSION_PATCH 0.a
+#define TIC_VERSION_STATUS "-LSR. dev"
 
 #if defined(TIC80_PRO)
 #define TIC_VERSION_POST " Pro"
 #else
-#define TIC_VERSION_POST ""
+#define TIC_VERSION_POST "The Master Nama's Version"
 #endif
 
 #define TIC_MAKE_VERSION(major, minor, patch) ((major) * 10000 + (minor) * 100 + (patch))
@@ -49,7 +49,7 @@
 #define TIC_NAME_FULL TIC_NAME " tiny computer"
 #define TIC_TITLE TIC_NAME_FULL " " TIC_VERSION_LABEL
 #define TIC_HOST "tic.computer"
-#define TIC_COPYRIGHT "http://" TIC_HOST " (C) 2017"
+#define TIC_COPYRIGHT "http://" TIC_HOST " (C) 2019"
 
 #define TIC_VRAM_SIZE (16*1024) //16K
 #define TIC_RAM_SIZE (TIC_VRAM_SIZE+80*1024) //16K+80K
