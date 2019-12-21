@@ -12,3 +12,9 @@ This TIC-80 editing files is without permission.
 Inside nesbox's license.
 
 https://github.com/Masternama-8000/TIC-80/blob/master/LICENSE
+
+
+
+# Issue
+
+Send this email: `kaushal.naik875@gmail.com`.
